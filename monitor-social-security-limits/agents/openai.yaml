@@ -1,0 +1,7 @@
+interface:
+  display_name: "社保基数监测"
+  short_description: "监测 gov.cn 社保缴费基数上下限更新通知"
+  default_prompt: "Use $monitor-social-security-limits to parse a gov.cn notice and extract social security contribution base limits."
+
+policy:
+  allow_implicit_invocation: true
